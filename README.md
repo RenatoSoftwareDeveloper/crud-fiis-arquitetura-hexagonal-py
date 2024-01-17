@@ -71,3 +71,14 @@ crud/
 |-- run.py  # Script para iniciar a aplicação
 
 ```
+### adapters/ (Adaptadores):
+* fundo_imobiliario_controller.py, é controlador da interface do usuário. Esses controladores funcionam como adaptadores de entrada,    conectando a interface do usuário ao núcleo da aplicação.
+
+### application/ (Aplicação):
+* fundo_imobiliario_service.py é serviço de aplicação, onde a lógica de negócios é implementada. Este é o núcleo da aplicação, que é independente de detalhes de implementação externa.
+
+### domain/ (Domínio):
+* fundo_imobiliario.py representa entidades e objetos de valor do domínio. Esses elementos são a representação da lógica de negócios pura.
+
+### infrastructure/ (Infraestrutura):
+* fundo_imobiliario_repository.py interação com o banco de dados ou armazenamento. Esta camada representa os adaptadores de saída na arquitetura hexagonal, conectando o núcleo da aplicação aos detalhes de implementação externa.
