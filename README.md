@@ -1,7 +1,7 @@
 # 🏡 CRUD de Fundos Imobiliários com Arquitetura Hexagonal em Python - Exemplo 1
 - Este projeto é um CRUD (Create, Read, Update, Delete) de Fundos Imobiliários implementado em Python, adotando a arquitetura hexagonal para promover modularidade e manutenibilidade do código. A arquitetura hexagonal, também conhecida como Ports and Adapters, separa as preocupações de negócios das implementações técnicas, facilitando a escalabilidade e testabilidade do sistema.
 
-- #### 🏡 CRUD de Fundos Imobiliários com Arquitetura Hexagonal em Python - Exemplo 2
+- #### 🏡 CRUD de Fundos Imobiliários com Arquitetura Hexagonal em Python - Exemplo 2: https://github.com/RenatoSoftwareDeveloper/crud-fiis-arquitetura-hexagonal-ex2
 
 # Tecnologias Utilizadas
 * Python 🐍: Linguagem de programação principal do projeto.
