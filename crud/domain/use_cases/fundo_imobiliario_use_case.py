@@ -1,4 +1,4 @@
-# crud/domain/use_cases/fundo_imobiliario_use_case.py
+
 from domain.models.fundo_imobiliario import FundoImobiliario
 
 class FundoImobiliarioUseCase:
@@ -11,8 +11,8 @@ class FundoImobiliarioUseCase:
     def obter_fundo_imobiliario_por_id(self, fundo_id):
         return self.outbound_port.buscar_fundo_imobiliario_por_id(fundo_id)
 
-    def criar_fundo_imobiliario(self, nome, descricao):
-        fundo = FundoImobiliario(id=None, nome=nome, descricao=descricao)
+    def criar_fundo_imobiliario(self, nome, descricao, valor):
+        fundo = FundoImobiliario(id=None, nome=nome, descricao=descricao, valor=valor)
         return self.outbound_port.salvar_fundo_imobiliario(fundo)
 
     def atualizar_fundo_imobiliario(self, fundo):

@@ -1,5 +1,5 @@
-# crud/adapters/request/fundo_imobiliario_request.py
 class FundoImobiliarioRequest:
-    def __init__(self, nome, descricao):
+    def __init__(self, nome, descricao, valor):
         self.nome = nome
         self.descricao = descricao
+        self.valor = valor

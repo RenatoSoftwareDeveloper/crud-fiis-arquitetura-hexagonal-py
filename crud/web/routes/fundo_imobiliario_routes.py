@@ -1,4 +1,4 @@
-# crud/web/routes/fundo_imobiliario_routes.py
+
 from flask import Blueprint
 from adapters.controller.fundo_imobiliario_controller import FundoImobiliarioController
 from domain.use_cases.fundo_imobiliario_use_case import FundoImobiliarioUseCase

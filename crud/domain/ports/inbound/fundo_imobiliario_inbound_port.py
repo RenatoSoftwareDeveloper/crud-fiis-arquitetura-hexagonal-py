@@ -1,4 +1,3 @@
-# crud/domain/ports/inbound/fundo_imobiliario_inbound_port.py
 
 class FundoImobiliarioInboundPort:
     def listar_fundos_imobiliarios(self):

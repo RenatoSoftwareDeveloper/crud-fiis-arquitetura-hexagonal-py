@@ -1,4 +1,4 @@
-# crud/infrastructure/repositories/fundo_imobiliario_repository.py
+
 from domain.ports.outbound.fundo_imobiliario_outbound_port import FundoImobiliarioOutboundPort
 
 class FundoImobiliarioRepository(FundoImobiliarioOutboundPort):

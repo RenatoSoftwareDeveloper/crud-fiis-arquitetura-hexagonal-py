@@ -1,5 +1,3 @@
-# crud/domain/ports/outbound/fundo_imobiliario_outbound_port.py
-
 class FundoImobiliarioOutboundPort:
     def salvar_fundo_imobiliario(self, fundo):
         pass
